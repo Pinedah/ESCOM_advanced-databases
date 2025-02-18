@@ -34,8 +34,10 @@ To follow along with the course materials and projects, ensure you have:
 ## 📂 Repository Structure
 ```
 📦 AdvancedDatabases
- ┣ 📂 lectures          # Notes and slides
- ┣ 📂 assignments       # Homework and exercises
+ ┣ 📂 datasets         # Datasets, databases and resources
+ ┣ 📂 period1          # Homework and exercises from Period 1
+ ┣ 📂 period1          # Homework and exercises from Period 2
+ ┣ 📂 period1          # Homework and exercises from Period 3
  ┣ 📂 projects         # Final projects and case studies
  ┣ 📜 README.md        # This file
 ```
@@ -57,6 +59,7 @@ Contributions are welcome! To collaborate:
 
 ## 📬 Contact
 If you have any questions or suggestions, feel free to reach out!
+Ig: @pinedah_11
 
 ---
 🚀 **Happy coding and database designing!**
