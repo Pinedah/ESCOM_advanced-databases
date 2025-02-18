@@ -34,12 +34,13 @@ To follow along with the course materials and projects, ensure you have:
 ## 📂 Repository Structure
 ```
 📦 AdvancedDatabases
- ┣ 📂 datasets         # Datasets, databases and resources
- ┣ 📂 period1          # Homework and exercises from Period 1
- ┣ 📂 period1          # Homework and exercises from Period 2
- ┣ 📂 period1          # Homework and exercises from Period 3
- ┣ 📂 projects         # Final projects and case studies
- ┣ 📜 README.md        # This file
+ ┣ 📂 datasets                          # Datasets, databases and resources
+ ┣ 📂 period1                           # Homework and exercises from Period 1
+ ┣ 📂 period2                           # Homework and exercises from Period 2
+ ┣ 📂 period3                           # Homework and exercises from Period 3
+ ┣ 📜 basesDatosAvanzadas_LCD2020       # Course overview
+ ┣ 📂 projects                          # Final projects and case studies
+ ┣ 📜 README.md                         # This file
 ```
 
 ## 📚 Recommended Books
