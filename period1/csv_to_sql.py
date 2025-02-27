@@ -33,4 +33,4 @@ def csv_a_sql(nombre_archivo_csv, nombre_archivo_sql, nombre_tabla):
             archivo_sql.write(");\n")
 
 # Ejemplo de uso
-csv_a_sql("C:\\Users\\Dell Latitude\\Documents\\GitHub\\ESCOM_advanced-databases\\Datasets\\SSNMX_catalogo_19000101_20250213.csv", "SSN.sql", "SNN")
+csv_a_sql("C:\\Users\\Dell Latitude\\Documents\\GitHub\\ESCOM_advanced-databases\\period1\\tarea1\\SSNMX_clean.csv", "SSN.sql", "SNN")
