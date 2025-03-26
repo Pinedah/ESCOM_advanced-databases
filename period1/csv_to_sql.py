@@ -27,10 +27,10 @@ def csv_a_sql(nombre_archivo_csv, nombre_archivo_sql, nombre_tabla):
         # Crear las sentencias INSERT INTO
         for fila in lector_csv:
             archivo_sql.write(f"INSERT INTO {nombre_tabla} (")
-            archivo_sql.write(", ".join(f'"{col.replace(" ", "_").lower()}"' for col in encabezado))  # Columnas
+            archivo_sql.write(", ".join(f'{col.replace(" ", "_").lower()}' for col in encabezado))  # Columnas
             archivo_sql.write(") VALUES (")
             archivo_sql.write(", ".join(f"'{valor}'" for valor in fila))  # Valores
             archivo_sql.write(");\n")
 
 # Ejemplo de uso
-csv_a_sql("C:\\Users\\Dell Latitude\\Documents\\GitHub\\ESCOM_advanced-databases\\period1\\tarea2\\ssn_clean.csv", "ssn_clean.sql", "ssn_clean")
+csv_a_sql("C:\\Users\\Dell Latitude\\Downloads\\economia_normalizada.csv", "economia_normalizada.sql", "economia")
